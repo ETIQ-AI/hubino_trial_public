@@ -1,2 +1,7 @@
 # hubino_trial
-Repo to manage the set up of the Hubino trial, will include demo scripts and the script used to make the data for transparency
+
+Welcome to your etiq trial!
+
+To use the demo scripts please run the make_data.py script first. Please pay special attention to file pathing as it may not match the path in your environment.
+
+When using the other files please check the paths for the input data (found in the helper file), and output data (found in whatever file you are running).

@@ -7,8 +7,8 @@ from datetime import datetime
 
 def load_and_clean_data():
     """Load the generated datasets"""
-    oracle_df = pd.read_csv('hubino_trial/data/oracle_demo.csv')
-    pos_df = pd.read_csv('hubino_trial/data/pos_demo.csv')
+    oracle_df = pd.read_csv('data/oracle_demo.csv')
+    pos_df = pd.read_csv('data/pos_demo.csv')
     return oracle_df, pos_df
 
 def analyze_join_keys(oracle_df, pos_df):

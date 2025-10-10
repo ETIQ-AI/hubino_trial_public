@@ -235,8 +235,8 @@ print("Generating POS demo data...")
 pos_df = create_pos_demo(base_pairs)
 
 # Save to CSV files
-oracle_df.to_csv('hubino_trial/data/oracle_demo.csv', index=False)
-pos_df.to_csv('hubino_trial/data/pos_demo.csv', index=False)
+oracle_df.to_csv('data/oracle_demo.csv', index=False)
+pos_df.to_csv('data/pos_demo.csv', index=False)
 
 print(f"Generated oracle_demo.csv with {len(oracle_df)} records")
 print(f"Generated pos_demo.csv with {len(pos_df)} records")
